@@ -2,26 +2,11 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
-// font-family: 'Montserrat', sans-serif;
+//font-family: 'Montserrat', sans-serif;
 
-@font-face {
-    font-family: "Gotham-Book";
-    src: url("./fonts/Gotham-Book.otf") format("opentype");
-    font-display: auto;
-    }
-    @font-face {
-        font-family: "Gotham-Black";
-        src: url("./fonts/Gotham-Black-Regular.ttf") format("opentype");
-        font-display: auto;
-    }
-    @font-face {
-        font-family: "Gotham-Bold";
-        src: url("./fonts/Gotham-Bold.otf") format("opentype");
-        font-display: auto;
-    }
-$regular: 'Gotham-Book', Tahoma, Geneva, Verdana, sans-serif;
-$Bold:'Gotham-Bold';
-$Title: 'Gotham-Black';
+$regular: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
+$Bold: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
+$Title: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
 $primary: #095b2e;
 $cocoa:#7d4b4b;
 $black: #000;
@@ -132,6 +117,7 @@ $black: #000;
       padding: 2px 10px;
       text-transform: uppercase;
       font-family: $Bold;
+      font-weight: 700;
     }
     &__packshot{
       margin-left: -120px;
@@ -144,6 +130,7 @@ $black: #000;
       text-transform: uppercase;
       color: #000;
       font-family: $Title;
+      font-weight: 900;
       font-size: 20px;
       text-align: center;
     }
@@ -181,6 +168,7 @@ $black: #000;
     }
     &__name{
       font-family: $Bold;
+      font-weight: 700;
       text-transform: uppercase;
       margin: 0;
       padding: 0;
@@ -226,6 +214,7 @@ $black: #000;
       text-transform: uppercase;
       color: $primary;
       font-family: $Title;
+      font-weight: 900;
       font-size: 20px;
     }
     &__text{
@@ -238,6 +227,7 @@ $black: #000;
         text-align: center;
         text-transform: uppercase;
         font-family: $Title;
+        font-weight: 900;
         font-size: 20px;
     }
     &__container{
@@ -251,6 +241,7 @@ $black: #000;
         content: 'przed';
         text-transform: uppercase;
         font-family: $Title;
+        font-weight: 900;
         font-size: x-large;
         display: block;
         position: absolute;
@@ -261,6 +252,7 @@ $black: #000;
         content: 'po';
         text-transform: uppercase;
         font-family: $Title;
+        font-weight: 900;
         font-size: x-large;
         display: block;
         position: absolute;
@@ -286,6 +278,7 @@ $black: #000;
         p{
             color: $primary;
             font-family: $Title;
+            font-weight: 900;
             font-size: 25px;
             line-height: .9;
             text-transform: uppercase;
@@ -325,6 +318,7 @@ $black: #000;
       
       span {
         font-family: $Bold;
+        font-weight: 700;
         font-size: 16px;
         display: block;
         margin-bottom: 4px;
@@ -366,6 +360,7 @@ $black: #000;
         text-align: center;
         text-transform: uppercase;
         font-family: $Title;
+        font-weight: 900;
         font-size: 22px;
     }
     &__package{
@@ -430,6 +425,7 @@ $black: #000;
     &__title{
         text-align: center;
         font-family: $Bold;
+        font-weight: 700;
         text-transform: uppercase;
         font-size: 20px;
         position: relative;
@@ -460,6 +456,7 @@ $black: #000;
     }
     &__step{
         font-family: $Bold;
+        font-weight: 700;
         margin-top: 40px;
     }
     &__desc{
@@ -486,6 +483,7 @@ $black: #000;
       text-transform: uppercase;
       text-align: center;
       font-family: $Title;
+      font-weight: 900;
       font-size: 18px;
       margin-bottom: 20px;
     }
@@ -502,6 +500,7 @@ $black: #000;
       width: 300px;
       span{
         font-family: $Bold;
+        font-weight: 700;
       }
     }
   }
@@ -510,6 +509,7 @@ $black: #000;
     &__title{
       text-align: center;
       font-family: $Title;
+      font-weight: 900;
       text-transform: uppercase;
       font-size: 20px;
       margin-bottom: 30px;
@@ -531,6 +531,7 @@ $black: #000;
     &__name{
       text-align: center;
       font-family: $Bold;
+      font-weight: 700;
       
       &--green{
         color:$primary;
@@ -542,6 +543,7 @@ $black: #000;
     &__subtitle{
       text-align: center;
       font-family: $Bold;
+      font-weight: 700;
     }
     &__desc{
       text-align: center;
@@ -555,6 +557,7 @@ $black: #000;
       text-decoration: none;
       text-align: center;
       font-family: $Bold;
+      font-weight: 700;
       width: 100%;
       margin: 10px 0;
       padding: 7px 40px;
