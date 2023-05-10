@@ -57,7 +57,7 @@ $black: #000;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 1300px;
+  max-width: 930px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -81,7 +81,7 @@ $black: #000;
 
 
   .es-kv{
-    max-height: 700px;
+    max-height: 500px;
     display: flex;
     &__imgCtn{
       width: 60%;
@@ -110,7 +110,7 @@ $black: #000;
       margin-bottom: -22px;
     }
     &__textCtn{
-      margin-top: 100px;
+      margin-top: 10px;
       margin-left: 10px;
       width: min-content;
       position: relative;
@@ -135,6 +135,7 @@ $black: #000;
     }
     &__packshot{
       margin-left: -120px;
+      max-width: 90%;
     }
   }
   .es-avo{
@@ -281,6 +282,7 @@ $black: #000;
         justify-content: flex-end;
         align-items: center;
         margin-right: 20px;
+        max-width: 40%;
         p{
             color: $primary;
             font-family: $Title;
@@ -356,7 +358,7 @@ $black: #000;
     margin: 50px 0;
     &__container{
         display: flex;
-        flex-wrap: wrap;
+        
         justify-content: center;
         align-items: center;
     }
@@ -607,7 +609,7 @@ $black: #000;
 }
 
 
-@media (max-width: 650px){
+@media (max-width: 670px){
     #es-garnier.es-garnier {
       .es-kv{
         max-height: 600px;
@@ -661,6 +663,9 @@ $black: #000;
               &__packshot{
                 margin-bottom: 80px;
               }
+              &__content {
+                max-width: unset;
+              }
         }
         .es-prepare{
         
@@ -673,6 +678,9 @@ $black: #000;
           }
         }
         .es-benefits{
+          &__container {
+            flex-wrap: wrap;
+          }
           &__package{
             margin-right: 0;
             width: 100%;
