@@ -70,7 +70,7 @@ $black: #000;
     display: flex;
     &__imgCtn{
       width: 60%;
-      background-image: url(./img/kv-woman.png);
+      background-image: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/kv-woman.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -81,7 +81,7 @@ $black: #000;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      background-image: url(./img/kv-ampoule.png);
+      background-image: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/kv-ampoule.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100% 85%;
@@ -101,7 +101,7 @@ $black: #000;
       position: relative;
       &::after{
         position: absolute;
-        content: url(./img/kv-badge.png);
+        content: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/kv-badge.png");
         top:35%;
         right: 15%;
       }
@@ -147,13 +147,13 @@ $black: #000;
       display: flex;
       align-items: flex-end;
       &--oil{
-        background-image: url(./img/olejek.png);
+        background-image: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/olejek.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
       }
       &--avo{
-        background-image: url(./img/awokado.png);
+        background-image: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/awokado.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -327,7 +327,7 @@ $black: #000;
     }
     &__cards {
         margin: 0;
-        background: url(./img/leaf-icon.png) no-repeat center center;
+        background: url("https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470407/img/leaf-icon.png") no-repeat center center;
         background-size: 220px;
       }
     &__cards .es-ingredients__single {
